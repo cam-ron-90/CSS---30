@@ -18,3 +18,19 @@
 .grayscale:hover {
   filter: grayscale(0);
 }
+
+.blur {
+  filter: blur(3px);
+}
+
+.blur:hover {
+  filter: blur(0);
+}
+/*
+.blur {
+  filter: blur(3px);
+}
+
+.blur:hover {
+  filter: blur(0);
+}*/
