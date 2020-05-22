@@ -26,11 +26,11 @@
 .blur:hover {
   filter: blur(0);
 }
-/*
-.blur {
-  filter: blur(3px);
+
+.invert {
+  filter: invert(1);
 }
 
-.blur:hover {
-  filter: blur(0);
-}*/
+.invert:hover {
+  filter: invert(0);
+}
