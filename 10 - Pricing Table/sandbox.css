@@ -75,6 +75,36 @@
   opacity: 0.6;
 }
 
+.pricing-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-body ul li {
+  display: block;
+  padding: 10px 20px;
+  margin:0;
+}
+
+.pricing-body ul li:nth-child(odd) {
+  background: #f8f8f8;
+}
+
+/*.pricing-body ul li:nth-child(even) {
+  background: #ffffff;
+}*/
+
+/* ========================================
+    ALTERNATIVE!
+   ====================================== */
+
+/*.final__pricing-body ul li:nth-child(2n) {
+     background-color: #ffffff;
+   }
+   .final__pricing-body ul li:nth-child(2n+1) {
+     background-color: #f8f8f8;
+   }*/
 
 .pricing-footer {
   padding-top: 40px;
@@ -118,6 +148,46 @@
   background: #333333;
   color: #ff8888;
 }
+
+
+   @media screen and (max-width:1023px) {
+     .pricing-table {
+       margin: auto;
+     }
+     .pricing-table > div {
+       float: none;
+       width: 100%;
+     }
+     .pricing-table > div:not(:last-child) {
+       margin-right: 0;
+       margin-bottom: 20px;
+     }
+     .pricing-body{
+        max-width: 100%;
+        overflow: hidden;
+        overflow-x: auto;
+        white-space: nowrap;
+     }
+     .pricing-body ul li{
+       display: inline-block;
+       vertical-align: middle;
+     }
+     .pricing-body ul li:not(:first-child){
+       margin-left: -5px;
+     }
+     .pricing-body ul li:nth-child(2n) {
+       background-color: #e8e8e8;
+     }
+     .pricing-footer {
+       padding-top: 0;
+     }
+     .pricing-popular {
+       margin-top: 0;
+     }
+     .pricing-popular .pricing-header,
+     .pricing-popular .pricing-footer {
+       padding-top: 30px;
+     }
 
 
 
