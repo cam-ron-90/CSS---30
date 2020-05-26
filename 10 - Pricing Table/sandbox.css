@@ -3,7 +3,72 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+.pricing-table {
+  margin: 60px auto;
+  contain: content;
+}
 
+.pricing-table > div:not(:last-child) {
+  margin-right: 2%;
+}
+
+.pricing-block {
+  display: block;
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+  background: #ffffff;
+  color: #555555;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pricing-header {
+  height: auto;
+  padding: 30px 20px 40px;
+  text-transform: uppercase;
+}
+
+.pricing-header .pricing-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+/*.pricing-heading {
+  font-weight: 700;
+  font-size: 1.4rem;
+}*/
+
+.pricing-price {
+  color: #777777;
+}
+
+.pricing-price > span {
+  display: inline-block;
+}
+
+.pricing-price__value {
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.pricing-price__currency {
+  margin-top: 10px;
+  vertical-align: top;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.6;
+}
+
+.pricing-price__duration {
+  margin-top: 10px;
+  vertical-align: top;
+  font-size: 1.4rem;
+  line-height: 1;
+  opacity: 0.6;
+}
 
 
 
